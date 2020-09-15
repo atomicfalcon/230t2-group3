@@ -9,7 +9,9 @@ The requirements for the project can be installed through the following command 
 ## Part 1: data retrieval and data engineering
 
 This part focuses on getting the data and inputting it into a dataframe for easier manipulation in the next steps of the projects. The data set is included in the folder `reuters`.
+
 The code in the notebook is also taking care of performance retrieval and labelling of the different headlines.
+
 The notebook is named `230T2-data-exploration.ipynb`.
 
 ## Part 2: benchmark model
@@ -18,7 +20,9 @@ The notebook is named `230T2-data-exploration.ipynb`.
 ## Part 3: BERT model
 
 This part is dedicated to using the data that was preprocessed in the first section and to train the final layer of a BERT model to have access to sentimental analysis.
+
 The requirements are already including in the top of this document.
+
 The notebook is named `230T2-bert-model.ipynb`.
 
 ## Part 4: backtest strategy

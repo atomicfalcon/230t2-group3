@@ -26,3 +26,18 @@ The requirements are already including in the top of this document.
 The notebook is named `230T2-bert-model.ipynb`.
 
 ## Part 4: backtest strategy
+
+In order to simulate predictive prowess of the sentiment factor calculated above, we implement a simple paper portfolio backtest strategy. There were quite a few alternatives in order to implement paper portfolios. Few of the things we came up with were:
+
+- Act on the instantaneous sentiment signal calculated everyday,
+    - Hold for 1 day
+    - Hold for 5 days
+-  Act o the instantaneous sentiment signal, calculated based on weighting given to different news depending on its impact on a given day
+    - Act on the Momentum of the sentiment signal
+        - Transact S \& P 500
+        - Transact VIX
+    - Act on the persistent sentiment signal (rolling average of X days)
+        - Transact S \& P 500
+        - Transact VIX
+
+The notebook is named `230T2-backtest-strategy.ipynb`.

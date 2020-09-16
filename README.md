@@ -15,7 +15,11 @@ The code in the notebook is also taking care of performance retrieval and labell
 The notebook is named `230T2-data-exploration.ipynb`.
 
 ## Part 2: benchmark model
+This part focuses on training naïve bayes classifier with tf-idf features, and compute the correlation of various benchmark classifiers with S&P500 price/returns. 
 
+The data set is included in the folder `data`
+
+The notebook is named is `230T2-baseline-model.ipynb`
 
 ## Part 3: BERT model
 
